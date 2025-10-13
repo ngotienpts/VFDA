@@ -1,0 +1,35 @@
+
+.pagination {
+    flex-wrap: wrap;
+    &-item {
+        margin: 4px;
+       
+        &.active {
+            .pagination-link {
+                color: #A61B28;
+                border-bottom: 1px solid #A61B28;
+            }
+        }
+    }
+    &-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+
+        &:hover {
+            color: #A61B28;
+        }
+
+        img {
+            height: 20px;
+            width: auto;
+        }
+    }
+
+}
+/*======================================================================== news */
+
+/*======================================================================== intro */
+
