@@ -116,6 +116,113 @@ document.addEventListener("DOMContentLoaded", function () {
         })
     }
 
+    // xử lý sự kiện để show popupLogin
+    function handleShowPopupLogin() {
+        const showPopupLogins = document.querySelectorAll(".js__showPopupLogin");
+        const popupLoginContainer = document.querySelector(".js__popupLoginContainer");
+
+        if(popupLoginContainer && showPopupLogins) {
+
+            const popupLogin = popupLoginContainer.querySelector(".js__popupLogin");
+            const closePopupLogin = popupLoginContainer.querySelector(".js__closePopupLogin");
+            const overlay = popupLoginContainer.querySelector(".js__overlay");
+            
+            if (showPopupLogins.length === 0) return;
+
+                
+            showPopupLogins.forEach((showPopupLogin)=>{
+
+                showPopupLogin.onclick = function() {
+                    popupLogin.classList.add('active')
+                    overlay.classList.add('active')
+                    document.querySelector("body").style.overflow = "hidden";
+                }
+    
+                closePopupLogin.onclick = function () {
+                    document.querySelector("body").style.overflow = "auto";
+                    popupLogin.classList.remove('active')
+                    overlay.classList.remove('active')
+                    loginForm.classList.add('active')
+                    registerForm.classList.remove('active')
+                    forgotForm.classList.remove('active')
+                };
+    
+                overlay.onclick = function () {
+                    this.classList.remove("active");
+                    document.querySelector("body").style.overflow = "auto";
+                    popupLogin.classList.remove('active');
+                    loginForm.classList.add('active')
+                    registerForm.classList.remove('active')
+                    forgotForm.classList.remove('active')
+                };
+
+                // change form login register forgot
+                const loginContainerForm = document.querySelector(".js__loginContainerForm");
+
+                if(!loginContainerForm) return
+
+                const loginForm = loginContainerForm.querySelector('.js__loginForm')
+                const registerForm = loginContainerForm.querySelector('.js__registerForm')
+                const forgotForm = loginContainerForm.querySelector('.js__forgotForm')
+
+                const loginBtn = registerForm.querySelector('.js__loginBtn')
+                const registerBtn = loginForm.querySelector('.js__registerBtn')
+                const forgotBtn = loginForm.querySelector('.js__forgotBtn')
+                
+                // login
+                registerBtn.onclick = function() {
+                    loginForm.classList.remove('active')
+                    registerForm.classList.add('active')
+                    forgotForm.classList.remove('active')
+                }
+                // register
+                loginBtn.onclick = function() {
+                    registerForm.classList.remove('active')
+                    loginForm.classList.add('active')
+                }
+                // forgot
+                forgotBtn.onclick = function() {
+                    loginForm.classList.remove('active')
+                    forgotForm.classList.add('active')
+                }
+            })
+
+            
+        }
+        
+        
+    }
+
+    // xử lý sự kiện để show dropdown
+     function handleShowDropdown() {
+        
+        const dropdownContainers = document.querySelectorAll(".js__dropdownContainer");
+
+
+        if (dropdownContainers.length === 0) return;
+
+
+        dropdownContainers.forEach((dropdownContainer)=>{
+
+            const dropdown = dropdownContainer.querySelector(".js__showDropdown");
+            const dropdownContent = dropdownContainer.querySelector(".js__dropdownContent");
+            const overlay = dropdownContainer.querySelector(".js__overlay");
+
+
+            dropdown.onclick = function () {
+                dropdownContent.classList.toggle("active");
+                overlay.classList.add('active')
+
+            };
+
+            overlay.onclick = function () {
+                dropdownContent.classList.remove("active");
+                this.classList.remove("active");
+            };
+        })
+
+      
+    }
 
     // Khởi tạo slider với một item
     function initSliderOneItems() {
@@ -158,7 +265,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 var prev = item.querySelector(".swiper-button-prev");
                 var pagi = item.querySelector(".swiper-pagination");
                 new Swiper(slider, {
-                    slidesPerView: 1.2,
+                    slidesPerView: 1,
                     spaceBetween: 15,
                     slidesPerGroup: 1,
                     navigation: {
@@ -398,7 +505,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-    // xử lý sự kiện show search desk
+    // xử lý sự kiện show search pc
+    function handleShowSearchPc () {
+        const searchPc = document.querySelectorAll(".js__searchPc");
+        if (searchPc.length === 0) return;
+        searchPc.forEach((searchPc) => {
+           
+            var formSearchPc = document.querySelector(".js__formSearchPc");
+            const focusElement =
+                formSearchPc.querySelector(".js__focusSearchPc");
+            searchPc.onclick = function () {
+                this.classList.toggle('active')
+                formSearchPc.classList.add("active");
+                focusElement.focus();
+
+                if(!this.classList.contains('active')) {
+                    formSearchPc.classList.remove("active");
+                    focusElement.value = "";
+                }
+                
+            };
+        });
+        
+    }
+    // xử lý sự kiện show search mb
     function handleShowSearchMb () {
         const searchMbs = document.querySelectorAll(".js__searchMb");
         if (searchMbs.length === 0) return;
@@ -512,8 +642,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Khởi tạo tất cả các chức năng
     function initApp() {
+        handleShowSearchPc();
         handleShowSearchMb();
         handleMenuMobile();
+        handleShowPopupLogin();
+        handleShowDropdown();
         // slide
         initSliderOneItems();
         initSliderThreeItems();

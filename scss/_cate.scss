@@ -29,7 +29,208 @@
     }
 
 }
+.breadcrumb {
+    &-container {
+        margin-bottom: 2px;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+        white-space: nowrap;
+
+    }
+    
+    &-item {
+        color: #333;
+         .breadcrumb-link {
+            margin-right: 12px;
+            font-weight: 300;
+        }
+        &:first-child {
+            .breadcrumb-link {
+                margin-left: -10px;
+                margin-right: 8px;
+            }
+        }
+
+        &:last-child {
+            color: #5f3b23;
+            .breadcrumb-link::before {
+                content: none;
+            }
+        }
+    }
+    &-link {
+    position: relative;
+    display: inline-block;
+    padding: 15px 10px 10px;
+
+        &::before {
+            content: "|";
+            position: absolute;
+            right: -5px;
+            color: #A8A8A8;
+        }
+    }
+}
+
 /*======================================================================== news */
+.ads-right {
+    img {
+        width: 100%;
+    }
+}
+.cate-primary {
+    margin-top: 0;
 
-/*======================================================================== intro */
+    &__container {
+        padding-top: 0 !important;
+        padding-bottom: 40px;
+    }
+}
 
+.cate-secondary {
+    &__container {
+        border-top: 1px solid #d4d4d4;
+    }
+    &__left {
+        grid-column: 1/3;
+
+        .article {
+            .article-content {
+                position: relative;
+                padding-left: 35px;
+            }
+            .article-time {
+                position: absolute;
+                top: 20px;
+                left: -55px;
+            }
+        }
+    }
+
+    &__right {
+    }
+    .latest-news {
+        &__content {
+            .article {
+                padding: 16px 0;
+                border-bottom: 1px solid #d4d4d4;
+
+                &:first-child {
+                    padding-top: 0;
+                }
+                &:last-child {
+                    padding-bottom: 0;
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+    .most-viewed {
+        &__content {
+            .article {
+                padding: 16px 0;
+                border-bottom: 1px solid #d4d4d4;
+
+                &:first-child {
+                    padding-top: 0;
+                }
+                &:last-child {
+                    padding-bottom: 0;
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
+
+/*======================================================================== about us */
+.about-us-primary {
+    .img-fixed-list {
+        .img-fixed-first {
+            position: absolute;
+            top: 5%;
+            right: 0;
+        }
+        .img-fixed-second {
+            position: absolute;
+            top: 60%;
+            left: 0;
+        }
+    }
+    &__top {
+        &-content {
+            .article-large {
+                max-width: 430px;
+                margin: auto;
+            }
+
+            .article-smalls {
+                margin-top: 80px;
+            }
+
+            .article-tertiary {
+                max-width: 850px;
+                margin: auto;
+                margin-top: 60px;
+
+                img {
+                    width: 100%;
+                }
+            }
+            .article-quaternary {
+                max-width: 950px;
+                margin: auto;
+                margin-top: 60px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    &__bot {
+        margin-top: 80px;
+        &-content {
+            table {
+                font-family: "Manrope", sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 12px;
+            }
+
+            tr {
+                background-color: #fff;
+
+                &:nth-child(even) {
+                background-color: #f0f0f0;
+                }
+
+                th {
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+
+                    &:nth-child(2){
+                        width: 20%;
+                    }
+                }
+
+                td {
+                    font-size: 16px;
+                    &:first-child {
+                        text-align: center;
+                    }
+                }
+            }
+
+        }
+    }
+}

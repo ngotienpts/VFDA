@@ -134,6 +134,26 @@
     }
 
     // --------------------------------------------------------------------cate
+    .cate-secondary {
+        &__left {
+            .article-content {
+                padding: 12px;
+            }
+
+            .article-title {
+                font-size: 16px;
+            }
+            .article-des {
+                font-size: 14px;
+            }
+            .article-btn {
+                margin-top: 5px;
+                .txt {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 
     // --------------------------------------------------------------------detail
     
@@ -274,6 +294,26 @@
     }
 
     // --------------------------------------------------------------------cate
+    .cate-secondary {
+        &__left {
+            .article-img {
+                width: 50%;
+            }
+        }
+    }
+
+    .about-us-primary {
+        &__bot {
+            &-content {
+                .content-table {
+                    white-space: nowrap;
+                    overflow: auto;
+                }
+            
+
+            }
+        }
+    }
     
     // --------------------------------------------------------------------detail
 
@@ -505,22 +545,54 @@
     }
 
     // --------------------------------------------------------------------cate
+    .cate-primary {
+        &__container {
+            padding-bottom: 20px;
+        }
+    }
+    .cate-secondary {
+        &__left {
+            .article {
+                .article-time {
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                }
+                .article-content {
+                    padding-top: 0;
+                    margin-top: -50px;
+                    padding-left: 12px;
+                }
+            }
+            .article-title {
+                margin-top: 15px;
+            }
+            .article-img {
+                width: 100%;
+            }
+        }
+        .article-time {
+            .txt-1 {
+                font-size: 28px;
+            }
+            .txt-2 {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .about-us-primary {
+        &__top {
+            .article-smalls {
+                grid-template-columns: repeat(2,1fr);
+                grid-gap: 12px;
+                gap: 12px;
+            }
+        }
+    }
     
 
     // --------------------------------------------------------------------detail
-    .detail-action {
-        &__right {
-            margin-top: 20px;
-        }
-    }
-    .article-related {
-        .article-img {
-            width: 100%;
-        }
-        .article-content {
-            padding: 15px 0 0;
-        }
-    }
 
     .detail-tags {
          .tags-list {
@@ -535,6 +607,14 @@
 
 
     .detail-primary {
+        &__container {
+            padding-top: 10px;
+        }
+        &__inner {
+            padding-left: 0;
+            width: 100%;
+            max-width: 100%;
+        }
         &__left {
             max-width: 100%;
             width: 100%;
@@ -546,24 +626,6 @@
             width: 100%;
         }
     }
-
-    .service-related {
-        &__content {
-            .article {
-                display: flex;
-                align-items: center;
-            }
-            .article-img {
-                flex-shrink: 0;
-                width: 35%;
-            }
-            .article-content {
-                flex: 1;
-                padding-left: 12px;
-            }
-        }
-    }
-
 
     
     // --------------------------------------------------------------------footer
@@ -660,6 +722,11 @@
         font-size: 18px;
         margin-bottom: 15px;
     }
+    .heading-tertiary {
+        font-size: 20px;
+    }
+
+    
 
     .arrow-slide-primary,
     .arrow-slide-secondary {
@@ -979,6 +1046,98 @@
     }
    
     // --------------------------------------------------------------------cate
+    .breadcrumb-container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .cate-primary {
+        &__container {
+            padding-bottom: 10px;
+        }
+    }
+    .cate-secondary {
+        &__container {
+            padding-top: 24px;
+        }
+        &__right {
+            .latest-news {
+                &__content {
+                    padding: 12px;
+                    .article {
+                        padding: 12px 0;
+                    }
+                    .article-content {
+                        padding-left: 10px;
+                    }
+                    .article-title {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .most-viewed {
+                &__content {
+                    padding: 12px;
+                    .article {
+                        padding: 12px 0;
+                    }
+                    .article-content {
+                        padding-left: 10px;
+                    }
+                    .article-title {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .about-us-primary {
+        &__top-content {
+            margin-top: 30px;
+            .article-large {
+                .article-title,
+                .article-name {
+                    font-size: 16px;
+                }
+                .article-name {
+                margin-top: 4px;
+                }
+            }
+            .article-smalls {
+                margin-top: 20px;
+
+                .article-content {
+                    padding: 12px 10px;
+                }
+                .article-title {
+                    font-size: 12px;
+                }
+                .article-name {
+                    font-size: 14px;
+                    margin-top: 2px;
+                }
+            }
+
+            .article-tertiary,
+            .article-quaternary {
+                margin-top: 20px;
+                .article-name {
+                    font-size: 14px;
+                }
+                .article-title {
+                    font-size: 12px;
+                }
+                .article-content {
+                    padding: 12px 10px;
+                }
+            }
+        }
+
+
+        &__bot {
+            margin-top: 40px;
+        }
+    }
 
     // --------------------------------------------------------------------detail
     p + p {
@@ -1013,50 +1172,14 @@
         margin-bottom: 20px;
         padding-bottom: 20px;
     }
-    .social-primary {
-        &__title {
-            font-size: 14px;
-        }
 
-        .social-link {
-            width: 34px;
-            height: 34px;
-        }
-    }
 
     .detail-sapo {
         p {
             font-size: 16px;
         }
     }
-    .table-of-contents {
-        &__heading {
-            padding: 15px;
-
-            .left {
-                .icon {
-                    img {
-                        width: 32px;
-                    }
-                }
-
-                .text {
-                    font-size: 16px;
-                }
-            }
-        }
-
-        &__content {
-            padding: 0 15px 20px;
-            ul  {
-                font-size: 16px;
-                
-                li {
-                    padding-left: 20px;
-                }
-            }
-        }
-    }
+  
     .detail-content {
 
         & figure {
@@ -1067,7 +1190,7 @@
                 font-size: 14px;
             }
             img {
-                border-radius: 15px;
+                border-radius: 5px;
             }
         }
         
@@ -1105,20 +1228,8 @@
             }
         }
     }
-    .article-related {
-        padding: 15px;
 
-        .article-title {
-            font-size: 18px;
-        }
-        .article-des {
-            font-size: 15px;
-        }
-    }
 
-    .article-cate-personal {
-        font-size: 14px;
-    }
     .detail-tags {
         .tag-link {
             padding: 10px 20px;
@@ -1127,24 +1238,32 @@
             margin-bottom: 0;
         }
     }
-    .service-related {
-        padding: 20px 10px;
 
-        &__heading {
-            font-size: 20px;
+   .detail-secondary {
+    &__slide {
+        margin-top: 20px;
+    }
+        .article-time {
+            .txt-1 {
+                font-size: 28px;
+            }
+            .txt-2 {
+                font-size: 14px;
+            }
         }
         .article {
-            margin-bottom: 15px;
-        }
-        .article-content {
-            padding-left: 10px;
-        }
-        .article-title {
-            font-size: 14px;
+            .article-content {
+                padding: 12px;
+            }
+            .article-title {
+                font-size: 15px;
+                margin-top: 12px;
+            }
+            .article-btn .txt {
+                font-size: 14px;
+            }
         }
     }
-   
-
     // --------------------------------------------------------------------footer
     #back-top {
         right: 20px;
