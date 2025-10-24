@@ -406,7 +406,7 @@
                             <!-- right -->
                             <div class="header-bot__right flex-1">
                                 <!-- action -->
-                                <div class="companion-list d-3xl-flex items-center flex-wrap justify-end gap-30 mb-20">
+                                <div class="companion-list d-3xl-flex items-center flex-wrap justify-end gap-30">
                                     <div class="companion-item">
                                         <a href="#">
                                             <img src="./images/svg/fiml-1.svg" alt="">
@@ -1323,1493 +1323,605 @@
         <!-- end header -->
         <!-- main -->
         <main id="main" class="main">
-            <!-- primary -->
-            <section class="section-primary relative z-20 over-hidden">
-                <div class="section-primary__container relative js__oneSlidesContainer arrow-slide-primary arrow-slide-primary--white z-20">
-                    <div class="section-primary__slide">
-                        <div class="swiper js__oneSlide">
+            
+            <!-- breadcrumb -->
+            <div class="breadcrumb w-wrapper over-hidden relative z-20 bg-white">
+                <div class="breadcrumb-container w-1280 d-3xl-flex items-center h-full w-full font-manrope py-15">
+                    <!-- item -->
+                    <div class="breadcrumb-item fs-16 h-full d-3xl-flex items-center">
+                        <a href="/" class="breadcrumb-link">Trang chủ</a>
+                    </div>
+                    <!-- end item -->
+                    <!-- item -->
+                    <div class="breadcrumb-item fs-16 h-full d-3xl-flex items-center">
+                        <a href="#" class="breadcrumb-link">Tin tức - sự kiện</a>
+                    </div>
+                    <!-- end item -->
+                    
+                </div>
+            </div>
+            <!-- end breadcrumb -->
+            
+            <!-- detail primary -->
+            <section class="detail-primary relative z-20 w-wrapper">
+                <div class="detail-primary__container w-1280 w-md-500 py-40 py-md-40 d-3xl-flex d-md-block gap-30">
+                    <!-- left -->
+                    <div class="detail-primary__left d-3xl-flex">
+                        <!-- share list-->
+                        <div class="share-detail flex-0 relative d-3xl-block d-md-none">
+                            <div class="share-detail__container">
+                                <ul class="share-detail__list">
+                                    <li class="share-detail__item">
+                                        <a href="#" class="share-detail__link">
+                                            <img src="./images/svg/link-yellow.svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="share-detail__item">
+                                        <a href="#" class="share-detail__link">
+                                            <img src="./images/svg/fb-yellow-circle.svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="share-detail__item">
+                                        <a href="#" class="share-detail__link">
+                                            <img src="./images/svg/x-yellow-circle.svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="share-detail__item share-detail__item--bookmark">
+                                        <a href="#" class="share-detail__link">
+                                            <img src="./images/svg/bookmark-yellow-circle.svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="share-detail__item">
+                                        <a href="#" class="share-detail__link">
+                                            <img src="./images/svg/print-yellow-circle.svg" alt="">
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end share list-->
+                        
+                        <!-- detail inner -->
+                        <div class="detail-primary__inner pl-30">
+                            <!-- title -->
+                            <h1 class="detail-title font-manrope text-gray-33 fw-bold fs-36 mb-30">
+                                Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0
+                            </h1>
+                            <!-- end title -->
+                            <!-- action -->
+                            <div class="detail-action d-3xl-flex items-center">
+                                <!-- author -->
+                                <div class="detail-author d-3xl-flex items-center mr-15">
+                                    <!-- img -->
+                                    <div class="detail-author__img flex-0">
+                                        <a href="#" class="">
+                                            <img src="./images/2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+
+                                    <!-- name -->
+                                    <div class="detail-author__name flex-1 pl-10 fs-16 text-gray-22">
+                                        <a href="#">Nguyen Van A</a>
+                                    </div>
+                                    <!-- end name -->
+                                </div>
+                                <!-- end author -->
+                                <!-- timme -->
+                                <div class="time fs-16 text-gray-66">
+                                    <span class="time-text">Friday, Sep 10, 2025 14:53</span>
+                                </div>
+                                <!-- end timme -->
+                            </div>
+                            <!-- end action -->
+
+                            <!-- detail content -->
+                            <div class="detail-content border-b-d9">
+                                <div id="explus-editor">
+                                    <figure class="expNoEdit">
+                                        <a data-fancybox="gallery" href="./images/2.jpg" data-caption="VNG từng dự kiến IPO tại Mỹ. Ảnh Vneconomy">
+                                            <img src="./images/2.jpg" alt="">
+                                          </a>
+                                          <figcaption>
+                                            <h2 class="expEdit">
+                                                Ảnh minh hoạ. Nguồn: Internet
+                                            </h2>
+                                        </figcaption>
+                                    </figure>
+                                    <div class="detail-sapo">
+                                        <p>Đó cũng là chủ đề của Hội thảo Bàn tròn được tổ chức bởi Hiệp hội Xúc tiến Phát triển Điện ảnh Việt Nam (VFDA) phối hợp với Diễn đàn Toàn cầu Boston (BGF), Phái đoàn thường trực Việt Nam tại Liên Hiệp Quốc và Đại học Harvard; diễn ra tại Đại học Harvard vào ngày 11/3 vừa qua.</p>
+                                    </div>
+                                    <p>Sự kiện là một phần trong chuỗi hoạt động kỷ niệm 30 năm thiết lập quan hệ ngoại giao Việt Nam – Hoa Kỳ, với mục đích tăng cường kết nối giữa ngành công nghiệp điện ảnh hai nước, thúc đẩy hợp tác trong sản xuất phim, ứng dụng công nghệ vào điện ảnh và phát triển nhân lực chất lượng cao.</p>
+                                    <figure class="expNoEdit">
+                                        <a data-fancybox="gallery" href="./images/2.jpg" data-caption="VNG từng dự kiến IPO tại Mỹ. Ảnh Vneconomy">
+                                            <img src="./images/2.jpg" alt="">
+                                          </a>
+                                          <figcaption>
+                                            <h2 class="expEdit">
+                                                Ảnh minh hoạ. Nguồn: Internet
+                                            </h2>
+                                        </figcaption>
+                                    </figure>
+                                    <p>Bàn tròn quy tụ sự tham gia của Đại sứ, trưởng Phái đoàn đại diện Thường trực Việt Nam tại New York – Ông Đặng Hoàng Giang, TS Ngô Phương Lan, Chủ tịch Hiệp hội Xúc tiến Phát triển Điện ảnh Việt Nam (VFDA); cựu Thống đốc bang Massachusetts Michael Dukakis, đồng sáng lập và Đồng Chủ tịch Diễn đàn Toàn cầu Boston (Boston Global Forum); Công sứ, Phó Trưởng Phái đoàn thường trực Việt Nam tại New York – Ông Nguyễn Hoàng Nguyên, Giám đốc Điện ảnh của chính quyền bang Massachusetts, Bà Meg Montagnino, các giáo sư từ Đại học Harvard, Giáo sư Nazli Choucri, Đại học MIT, Giáo sư đại học Columbia – Tony Bùi, cùng nhiều chuyên gia điện ảnh, nhà làm phim và nhà đầu tư quốc tế. GS Thomas Patterson của Đại học Harvard đóng vai trò điều khiển chương trình.</p>
+                                    <h2>Kết nối ngành điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh công nghệ và hội nhập quốc tế</h2>
+                                    <p>Hội thảo tại Đại học Harvard tập trung thảo luận về những giá trị của phim Việt Nam với những nét tiêu biểu tính nhân văn, vị tha và lòng trắc ẩn, sự phát triển của điện ảnh trong quá trình hội nhập quốc tế, xây dựng công nghiệp điện ảnh và xu hướng mới trong ứng dụng AI vào sản xuất phim.</p>
+                                    <p>Mở đầu hội thảo, Đại sứ Đặng Hoàng Giang, Trưởng Phái đoàn Thường trực Việt Nam tại New York nhấn mạnh rằng điện ảnh không chỉ là một ngành công nghiệp sáng tạo mà còn là cầu nối quan trọng giúp tăng cường hiểu biết lẫn nhau và thúc đẩy giao lưu văn hóa giữa Việt Nam và Hoa Kỳ, đặc biệt trong bối cảnh hai nước kỷ niệm 30 năm quan hệ ngoại giao vào năm 2025. Ông ghi nhận sự phát triển mạnh mẽ của điện ảnh Việt Nam, ngày càng được công nhận trên trường quốc tế, và khẳng định việc ứng dụng công nghệ, đặc biệt là AI, cần hướng đến việc bảo tồn và lan tỏa những giá trị nhân văn. Đại sứ cũng đánh giá cao sáng kiến “Friends of the US-Vietnam Film Collaboration” như một bước tiến quan trọng trong việc kết nối ngành điện ảnh hai nước, tạo nền tảng cho sự hợp tác sâu rộng hơn trong tương lai.</p>
+                                    <figure class="expNoEdit">
+                                        <a data-fancybox="gallery" href="./images/2.jpg" data-caption="VNG từng dự kiến IPO tại Mỹ. Ảnh Vneconomy">
+                                            <img src="./images/2.jpg" alt="">
+                                          </a>
+                                          <figcaption>
+                                            <h2 class="expEdit">
+                                                Ảnh minh hoạ. Nguồn: Internet
+                                            </h2>
+                                        </figcaption>
+                                    </figure>
+                                    <ul>
+                                        <li>Tư vấn thành lập – tổ chức lại – giải thể doanh nghiệp</li>
+                                        <li>Tư vấn thành lập – tổ chức lại – giải thể doanh nghiệp</li>
+                                        <li>Tư vấn thành lập – tổ chức lại – giải thể doanh nghiệp</li>
+                                        <li>Tư vấn thành lập – tổ chức lại – giải thể doanh nghiệp</li>
+                                        <li>Tư vấn thành lập – tổ chức lại – giải thể doanh nghiệp</li>
+                                        <li>Tư vấn thành lập – tổ chức lại – giải thể doanh nghiệp</li>
+                                    </ul>
+                                    <p>Điện ảnh Việt Nam không thể chỉ dựa vào lợi thế về bối cảnh quay phim, mà cần có một hệ sinh thái điện ảnh hoàn chỉnh để thu hút hợp tác quốc tế. Công nghệ, chính sách ưu đãi, đào tạo nhân lực và chiến lược phát hành là những yếu tố then chốt để nâng cao vị thế của điện ảnh Việt Nam trong bối cảnh toàn cầu hóa. Việc kết hợp giữa truyền thống và đổi mới công nghệ, như ứng dụng trí tuệ nhân tạo (AI) trong sản xuất phim, không chỉ giúp nâng cao chất lượng phim mà còn tăng khả năng cạnh tranh trên thị trường quốc tế.</p>
+                                    <p>Nhìn về tương lai, TS Ngô Phương Lan khẳng định rằng VFDA một mặt tích cực triển khai Bộ chỉ số thu hút đoàn phim PAI đến các tỉnh thành, mặt khác nỗ lực mở rộng hợp tác với các tổ chức điện ảnh, trường đại học và đối tác điện ảnh công nghệ tại Hoa Kỳ để tạo ra nhiều cơ hội phát triển hơn cho điện ảnh Việt Nam.</p>
+                                    <p>Cựu Thống đốc bang Massachusetts Michael Dukakis cũng nhấn mạnh vai trò của điện ảnh Việt Nam trong việc lan tỏa giá trị nhân văn và lòng trắc ẩn, góp phần thúc đẩy sự kết nối giữa các nền văn hóa. Hợp tác trong lĩnh vực điện ảnh là một phần quan trọng trong quan hệ Việt – Mỹ, không chỉ về sản xuất phim mà còn mở ra cơ hội kết nối công nghệ, đào tạo nhân lực và phát triển chính sách hỗ trợ. Ông cho rằng Công viên điện ảnh AIWS là một sáng kiến đột phá, giúp Việt Nam vươn lên như một trung tâm điện ảnh sáng tạo, kết nối với Boston, New York, Hollywood và các thị trường toàn cầu.</p>
+                                    
+                                    <p>Tôn tượng Thiên thủ Thiên Nhãn có khuôn mặt đầy đặn, cân đối, mặt tròn, mắt mở 3/4 nhìn xuống, mũi thon thẳng, miệng nhỏ, cổ cao, tóc buông sau lưng, Ngài đội mũ được trang trí cầu kỳ, tinh tế. Phần đầu của Ngài có 11 khuôn mặt, tượng trưng cho 11 quả vị giác ngộ, các khuôn mặt trên tôn tượng được sắp xếp theo 5 tầng, biểu trưng cho ngũ trí Phật. Gồm: Phần trên cùng là tượng trưng của Pháp thân - Đức Phật A Di Đà, biểu tượng cho chính đẳng giác; Tầng thứ hai là Báo Thân - Đức Kim Cương Thủ, biểu thị cho tướng phẫn nộ chính, tức Bất không thành tựu Phật ở Phương Nam; Ba tầng dưới cùng là biểu tượng của Hoá thân, tương ứng với 9 đầu còn lại. Ngài có 9 khuôn mặt: 3 khuôn mặt ở giữa biểu trưng cho Đại viên cảnh trí, tức Đức Phật A Súc Bệ ở phương Đông, ba khuôn mặt này đại từ đại bi, thấy chúng sinh làm thiện mà sinh tâm an lạc. Còn 3 khuôn mặt bên phải thì biểu tượng cho năng lực thuyết pháp của Đức Phật A Di Đà ở Phương Tây. Và cuối cùng là ba khuôn mặt phía bên trái biểu thị cho sự bình đẳng tính trí, hàng phục ngã ác của đức Bảo Sinh Phật ở phương Nam; ba khuôn mặt này tướng phẫn nộ vì thấy chúng sinh làm ác, đồng thời để hàng phục những chúng sinh ngang cường khó độ.<a href="#">least $3 billion.</a></p>
+                                    <figure class="expNoEdit">
+                                        <a data-fancybox="gallery" href="./images/2.jpg" data-caption="VNG từng dự kiến IPO tại Mỹ. Ảnh Vneconomy">
+                                            <img src="./images/2.jpg" alt="">
+                                          </a>
+                                          <figcaption>
+                                            <h2 class="expEdit">
+                                                Ảnh minh hoạ. Nguồn: Internet
+                                            </h2>
+                                        </figcaption>
+                                    </figure>
+                                    <h3>Kết nối ngành điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh công nghệ và hội nhập quốc tế</h3>
+                                    <p>Hội thảo tại Đại học Harvard tập trung thảo luận về những giá trị của phim Việt Nam với những nét tiêu biểu tính nhân văn, vị tha và lòng trắc ẩn, sự phát triển của điện ảnh trong quá trình hội nhập quốc tế, xây dựng công nghiệp điện ảnh và xu hướng mới trong ứng dụng AI vào sản xuất phim.</p>
+                                    <p>Mở đầu hội thảo, Đại sứ Đặng Hoàng Giang, Trưởng Phái đoàn Thường trực Việt Nam tại New York nhấn mạnh rằng điện ảnh không chỉ là một ngành công nghiệp sáng tạo mà còn là cầu nối quan trọng giúp tăng cường hiểu biết lẫn nhau và thúc đẩy giao lưu văn hóa giữa Việt Nam và Hoa Kỳ, đặc biệt trong bối cảnh hai nước kỷ niệm 30 năm quan hệ ngoại giao vào năm 2025. Ông ghi nhận sự phát triển mạnh mẽ của điện ảnh Việt Nam, ngày càng được công nhận trên trường quốc tế, và khẳng định việc ứng dụng công nghệ, đặc biệt là AI, cần hướng đến việc bảo tồn và lan tỏa những giá trị nhân văn. Đại sứ cũng đánh giá cao sáng kiến “Friends of the US-Vietnam Film Collaboration” như một bước tiến quan trọng trong việc kết nối ngành điện ảnh hai nước, tạo nền tảng cho sự hợp tác sâu rộng hơn trong tương lai <a href="#">least $3 billion.</a></p>
+                                   
+                                    
+                                    <blockquote class="expNoEdit">
+                                        <div class="bl expEdit">
+                                            <p>
+                                                <a class="autotag" href="#" target="_blank" rel="follow noopener">Rùa biển</a>
+                                                là loài động vật hoang dã thuộc Danh
+                                                mục nguy cấp quý, hiếm được ưu tiên
+                                                bảo vệ theo Nghị định số
+                                                64/2019/NĐ-CP ngày 16/7/2019 của
+                                                Chính phủ và Điều 244 Bộ luật Hình
+                                                sự Việt Nam. Tại Bà Rịa - Vũng Tàu,
+                                                rùa biển chỉ tập trung, sinh sống và
+                                                đang được bảo tồn ở vùng biển huyện
+                                                Côn Đảo. Rùa biển tại Côn Đảo thuộc
+                                                diện bảo tồn thường được gắn chip ở
+                                                dưới vây để theo dõi.
+                                            </p>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <!-- end detail content -->
+
+                            <!-- tags -->
+                            <div class="detail-tags d-3xl-flex items-center my-30 pb-20 border-b-d9">
+                                <h3 class="tags-title flex-0 fs-16 text-gray-66 mr-20 mb-12">Topic:</h3>
+                                <ul class="tags-list flex-1 d-3xl-flex items-center flex-wrap">
+                                    <li class="tag-item">
+                                        <a href="#" class="tag-link">Hollywood</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#" class="tag-link">VFDA</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#" class="tag-link">Đầu tư</a>
+                                    </li>
+                                    <li class="tag-item">
+                                        <a href="#" class="tag-link">Thương mại</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end tags -->
+                        </div>
+                        <!-- detail end inner -->
+
+                    </div>
+                    <!-- end left -->
+
+                    <!-- right -->
+                    <div class="detail-primary__right">
+                        <!-- danaff -->
+                        <div class="danaff-block mb-20 border-b-d9">
+                            <!-- heading -->
+                            <div class="danaff-block__heading bg-orange-f5 px-15 py-8 mb-10">
+                                <h2 class="title fs-24 fw-600 text-white text-uppercase"><span>danaff</span></h2>
+                            </div>
+                            <!-- end heading -->
+
+                            <!-- content -->
+                            <div class="danaff-block__content">
+                                <!-- article -->
+                                <div class="article mb-20">
+                                    <!-- img -->
+                                    <div class="article-img over-hidden">
+                                        <a href="#" class="ratio-17x9 scale-107">
+                                            <img src="./images/2.jpg" alt="" class="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-10">
+                                        <h3 class="article-title fs-16 text-orange-f5 fw-500">
+                                            <a href="#">VFDA đẩy mạnh hợp tác quốc tế tại Liên hoan phim quốc tế Busan lần thứ 30</a>
+                                        </h3>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article mb-20">
+                                    <!-- img -->
+                                    <div class="article-img over-hidden">
+                                        <a href="#" class="ratio-17x9 scale-107">
+                                            <img src="./images/2.jpg" alt="" class="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-10">
+                                        <h3 class="article-title fs-16 text-orange-f5 fw-500">
+                                            <a href="#">VFDA đẩy mạnh hợp tác quốc tế tại Liên hoan phim quốc tế Busan lần thứ 30</a>
+                                        </h3>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article mb-20">
+                                    <!-- img -->
+                                    <div class="article-img over-hidden">
+                                        <a href="#" class="ratio-17x9 scale-107">
+                                            <img src="./images/2.jpg" alt="" class="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-10">
+                                        <h3 class="article-title fs-16 text-orange-f5 fw-500">
+                                            <a href="#">VFDA đẩy mạnh hợp tác quốc tế tại Liên hoan phim quốc tế Busan lần thứ 30</a>
+                                        </h3>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article mb-20">
+                                    <!-- img -->
+                                    <div class="article-img over-hidden">
+                                        <a href="#" class="ratio-17x9 scale-107">
+                                            <img src="./images/2.jpg" alt="" class="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-10">
+                                        <h3 class="article-title fs-16 text-orange-f5 fw-500">
+                                            <a href="#">VFDA đẩy mạnh hợp tác quốc tế tại Liên hoan phim quốc tế Busan lần thứ 30</a>
+                                        </h3>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                            </div>
+                            <!-- end content -->
+                        </div>
+                        <!-- end danaff -->
+
+                        <!-- production -->
+                        <div class="production-block mb-20">
+                            <!-- heading -->
+                            <div class="production-block__heading bg-orange-d4 px-15 py-8 mb-10">
+                                <h2 class="title fs-24 fw-600 text-white text-uppercase">
+                                    <span>vietnamfilm</span> 
+                                    <span>production</span>
+                                </h2>
+                            </div>
+                            <!-- end heading -->
+
+                            <!-- content -->
+                            <div class="production-block__content">
+                                <!-- article -->
+                                <div class="article mb-20">
+                                    <!-- img -->
+                                    <div class="article-img over-hidden">
+                                        <a href="#" class="ratio-17x9 scale-107">
+                                            <img src="./images/2.jpg" alt="" class="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-10">
+                                        <h3 class="article-title fs-16 text-orange-d4 fw-500">
+                                            <a href="#">L’amant (1992) - Người tình (1992)</a>
+                                        </h3>
+                                        <ul class="font-manrope text-orange-d4 mt-8 fs-12">
+                                            <li>Giải Oscar Cho Phim Nói Tiếng Nước Ngoài Hay Nhất.</li>
+                                            <li>Giải Quả Cầu Vàng Cho Phim Nói Tiếng Nước Ngoài Xuất Sắc</li>
+                                        </ul>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article mb-20">
+                                    <!-- img -->
+                                    <div class="article-img over-hidden">
+                                        <a href="#" class="ratio-17x9 scale-107">
+                                            <img src="./images/2.jpg" alt="" class="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-10">
+                                        <h3 class="article-title fs-16 text-orange-d4 fw-500">
+                                            <a href="#">L’amant (1992) - Người tình (1992)</a>
+                                        </h3>
+                                        <ul class="font-manrope text-orange-d4 mt-8 fs-12">
+                                            <li>Giải Oscar Cho Phim Nói Tiếng Nước Ngoài Hay Nhất.</li>
+                                            <li>Giải Quả Cầu Vàng Cho Phim Nói Tiếng Nước Ngoài Xuất Sắc</li>
+                                        </ul>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article mb-20">
+                                    <!-- img -->
+                                    <div class="article-img over-hidden">
+                                        <a href="#" class="ratio-17x9 scale-107">
+                                            <img src="./images/2.jpg" alt="" class="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-10">
+                                        <h3 class="article-title fs-16 text-orange-d4 fw-500">
+                                            <a href="#">L’amant (1992) - Người tình (1992)</a>
+                                        </h3>
+                                        <ul class="font-manrope text-orange-d4 mt-8 fs-12">
+                                            <li>Giải Oscar Cho Phim Nói Tiếng Nước Ngoài Hay Nhất.</li>
+                                            <li>Giải Quả Cầu Vàng Cho Phim Nói Tiếng Nước Ngoài Xuất Sắc</li>
+                                        </ul>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                <!-- article -->
+                                <div class="article mb-20">
+                                    <!-- img -->
+                                    <div class="article-img over-hidden">
+                                        <a href="#" class="ratio-17x9 scale-107">
+                                            <img src="./images/2.jpg" alt="" class="">
+                                        </a>
+                                    </div>
+                                    <!-- end img -->
+                                    <!-- content -->
+                                    <div class="article-content mt-10">
+                                        <h3 class="article-title fs-16 text-orange-d4 fw-500">
+                                            <a href="#">L’amant (1992) - Người tình (1992)</a>
+                                        </h3>
+                                        <ul class="font-manrope text-orange-d4 mt-8 fs-12">
+                                            <li>Giải Oscar Cho Phim Nói Tiếng Nước Ngoài Hay Nhất.</li>
+                                            <li>Giải Quả Cầu Vàng Cho Phim Nói Tiếng Nước Ngoài Xuất Sắc</li>
+                                        </ul>
+                                    </div>
+                                    <!-- end content -->
+                                </div>
+                                <!-- end article -->
+                                
+                                
+                            </div>
+                            <!-- end content -->
+                        </div>
+                        <!-- end production -->
+                    </div>
+                    <!-- end right -->
+                </div>
+            </section>
+            <!-- end detail primary -->
+
+            <!-- detail secondary -->
+             <section class="detail-secondary relative z-20 overflow-hidden w-wrapper bg-gray-f5">
+                <!-- container -->
+                <div class="detail-secondary__container relative z-20 py-3xl-80 py-md-40 w-1280">
+                    <!-- heading -->
+                    <div class="detail-secondary__heading heading-primary">
+                        <h2 class="text-2 fs-42 text-yellow-e9 fw-600 text-uppercase"><span>Bài viết khác</span></h2>
+                    </div>
+                    <!-- end heading -->
+
+                    <!-- slide pc-->
+                    <div class="detail-secondary__slide mt-30 js__threeSlidesContainer arrow-slide-secondary relative z-10 same-height pb-40">
+                        <div class="swiper js__threeSlide">
                             <div class="swiper-wrapper">
                                 <!-- slide -->
                                 <div class="swiper-slide">
-                                    <!--  -->
                                     <div class="article">
-                                        <div class="article-img">
-                                            <a href="#" class="">
-                                                <img src="./images/Rectangle_972.png" alt="" class="d-3xl-block d-sm-none w-full">
-                                                <img src="./images/Rectangle_972_mb.png" alt="" class="d-3xl-none d-sm-block w-full">
-                                            </a>
+                                        <!-- img -->
+                                        <div class="article-img over-hidden">
+                                            <div class="d-3xl-block d-md-none">
+                                                <a href="#" class="ratio-4x3 scale-107">
+                                                    <img src="./images/2.jpg" alt="" class="">
+                                                </a>
+                                            </div>
+                                            <div class="d-3xl-none d-md-block">
+                                                <a href="#" class="ratio-4x6 scale-107">
+                                                    <img src="./images/2.jpg" alt="" class="">
+                                                </a>
+                                            </div>
                                         </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content p-20 bg-white">
+                                            <div>
+                                                <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
+                                                    <span class="txt-1 fs-36 fw-bold">05</span>
+                                                    <span class="txt-2 fs-16 fw-500">10/2025</span>
+                                                </div>
+                                            </div>
+                                            <h3 class="article-title fs-18 text-gray-33 fw-500 mt-20">
+                                                <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
+                                            </h3>
+                                            
+                                            <div class="article-btn mt-12">
+                                                <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
+                                                    <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
+                                                    <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
                                     </div>
-                                    <!--  -->
                                 </div>
                                 <!-- end slide -->
                                 <!-- slide -->
                                 <div class="swiper-slide">
-                                    <!--  -->
                                     <div class="article">
-                                        <div class="article-img">
-                                            <a href="#" class="">
-                                                <img src="./images/Rectangle_972.png" alt="" class="d-3xl-block d-sm-none w-full">
-                                                <img src="./images/Rectangle_972_mb.png" alt="" class="d-3xl-none d-sm-block w-full">
-                                            </a>
+                                        <!-- img -->
+                                        <div class="article-img over-hidden">
+                                            <div class="d-3xl-block d-md-none">
+                                                <a href="#" class="ratio-4x3 scale-107">
+                                                    <img src="./images/2.jpg" alt="" class="">
+                                                </a>
+                                            </div>
+                                            <div class="d-3xl-none d-md-block">
+                                                <a href="#" class="ratio-4x6 scale-107">
+                                                    <img src="./images/2.jpg" alt="" class="">
+                                                </a>
+                                            </div>
                                         </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content p-20 bg-white">
+                                            <div>
+                                                <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
+                                                    <span class="txt-1 fs-36 fw-bold">05</span>
+                                                    <span class="txt-2 fs-16 fw-500">10/2025</span>
+                                                </div>
+                                            </div>
+                                            <h3 class="article-title fs-18 text-gray-33 fw-500 mt-20">
+                                                <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
+                                            </h3>
+                                            
+                                            <div class="article-btn mt-12">
+                                                <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
+                                                    <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
+                                                    <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
                                     </div>
-                                    <!--  -->
                                 </div>
                                 <!-- end slide -->
+                                <!-- slide -->
+                                <div class="swiper-slide">
+                                    <div class="article">
+                                        <!-- img -->
+                                        <div class="article-img over-hidden">
+                                            <div class="d-3xl-block d-md-none">
+                                                <a href="#" class="ratio-4x3 scale-107">
+                                                    <img src="./images/2.jpg" alt="" class="">
+                                                </a>
+                                            </div>
+                                            <div class="d-3xl-none d-md-block">
+                                                <a href="#" class="ratio-4x6 scale-107">
+                                                    <img src="./images/2.jpg" alt="" class="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content p-20 bg-white">
+                                            <div>
+                                                <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
+                                                    <span class="txt-1 fs-36 fw-bold">05</span>
+                                                    <span class="txt-2 fs-16 fw-500">10/2025</span>
+                                                </div>
+                                            </div>
+                                            <h3 class="article-title fs-18 text-gray-33 fw-500 mt-20">
+                                                <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
+                                            </h3>
+                                            
+                                            <div class="article-btn mt-12">
+                                                <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
+                                                    <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
+                                                    <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                </div>
+                                <!-- end slide -->
+                                <!-- slide -->
+                                <div class="swiper-slide">
+                                    <div class="article">
+                                        <!-- img -->
+                                        <div class="article-img over-hidden">
+                                            <div class="d-3xl-block d-md-none">
+                                                <a href="#" class="ratio-4x3 scale-107">
+                                                    <img src="./images/2.jpg" alt="" class="">
+                                                </a>
+                                            </div>
+                                            <div class="d-3xl-none d-md-block">
+                                                <a href="#" class="ratio-4x6 scale-107">
+                                                    <img src="./images/2.jpg" alt="" class="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end img -->
+                                        <!-- content -->
+                                        <div class="article-content p-20 bg-white">
+                                            <div>
+                                                <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
+                                                    <span class="txt-1 fs-36 fw-bold">05</span>
+                                                    <span class="txt-2 fs-16 fw-500">10/2025</span>
+                                                </div>
+                                            </div>
+                                            <h3 class="article-title fs-18 text-gray-33 fw-500 mt-20">
+                                                <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
+                                            </h3>
+                                            
+                                            <div class="article-btn mt-12">
+                                                <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
+                                                    <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
+                                                    <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- end content -->
+                                    </div>
+                                </div>
+                                <!-- end slide -->
+                               
                             </div>
                         </div>
-                    </div>
-                    <div class="section-primary__btn w-1280">
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                </div>
-            </section>
-            <!-- end primary -->
+                    <!-- end slide pc-->
 
-            <!-- secondary -->
-            <section class="section-secondary relative z-20 over-hidden w-wrapper bg-white">
-                <div class="section-secondary__container w-1280 w-md-500 relative py-3xl-80 py-md-40">
-                    <!-- content -->
-                    <div class="section-secondary__content d-3xl-flex flex-wrap d-md-block gap-20">
-                        <!-- item -->
-                        <div class="section-secondary__item-first flex-0 w-35 w-md-full heading-primary">
-                            <h2 class="text-1 fs-32 text-gray-55 fw-400"><span>Giới thiệu về VFDA </span></h2>
-                            <h1 class="text-2 fs-42 fw-600 text-yellow-e9 mt-8"><span>HIỆP HỘI XÚC TIẾN PHÁT TRIỂN ĐIỆN ẢNH VIỆT NAM</span></h1>
-                            <div class="text-3 fs-18 fw-400 text-gray-55 mt-10">
-                                <p>Vietnam Film Development Association (VFDA)</p>
-                            </div>
-                        </div>
-                        <!-- end item -->
-
-                        <!-- item -->
-                        <div class="section-secondary__item-second bg-yellow-gradient py-30 px-24 flex-1">
-                            <div class="article-img">
-                                <img src="./images/svg/icon-1.svg" alt="">
-                            </div>
-                            <div class="article-content mt-20">
-                                <h3 class="article-title fs-24 text-gray-33 fw-bold font-manrope">
-                                    <span>Giới thiệu về tổ chức</span>
-                                </h3>
-                                <div class="article-des mt-20 fs-16 font-manrope text-gray-33">
-                                    <p>Hiệp hội Xúc tiến phát triển Điện ảnh Việt Nam vừa công bố thành lập sáng 25-7 tại Hà Nội.</p>
-                                </div>
-                                <div class="article-btn mt-30">
-                                    <a href="#" class="btn text-uppercase fw-600">
-                                        <span>Xem thêm</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end item -->
-                        <!-- item -->
-                        <div class="section-secondary__item-second bg-yellow-gradient py-30 px-24 flex-1">
-                            <div class="article-img">
-                                <img src="./images/svg/icon-2.svg" alt="">
-                            </div>
-                            <div class="article-content mt-20">
-                                <h3 class="article-title fs-24 text-gray-33 fw-bold font-manrope">
-                                    <span>Cơ cấu tổ chức và Ban chấp hành</span>
-                                </h3>
-                                <div class="article-des mt-20 fs-16 font-manrope text-gray-33">
-                                    <ul>
-                                        <li>Cơ cấu tổ chức</li>
-                                        <li> Danh sách Ban chấp hành</li>
-                                    </ul>
-                                </div>
-                                <div class="article-btn mt-30">
-                                    <a href="#" class="btn text-uppercase fw-600">
-                                        <span>Xem thêm</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end item -->
-                    </div>
-                    <!-- end content -->
-                </div>
-            </section>
-            <!-- end secondary -->
-
-            <!-- tertiary -->
-            <section class="section-tertiary relative z-20 over-hidden w-wrapper">
-                <div class="section-tertiary__container w-1280 w-md-500 relative over-hidden">
-                    <!-- content -->
-                    <div class="section-tertiary__content d-3xl-flex d-md-block items-center">
-                        <!-- left -->
-                        <div class="section-tertiary__left flwx-0 w-35 w-md-full">
-                            <div class="companion-list d-3xl-flex flex-wrap items-center gap-30">
-                                <div class="companion-item flex-0">
-                                    <a href="#" class="companion-link">
-                                        <img src="./images/svg/fiml-3.svg" alt="">
-                                    </a>
-                                </div>
-                                <div class="companion-item flex-0">
-                                    <a href="#" class="companion-link">
-                                        <img src="./images/svg/fiml-4.svg" alt="">
-                                    </a>
-                                </div>
-                                <div class="companion-item flex-0">
-                                    <a href="#" class="companion-link">
-                                        <img src="./images/svg/fiml-1.svg" alt="">
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!-- end left -->
-                        <!-- right -->
-                        <div class="section-tertiary__right flex-1">
-                            <div class="article d-3xl-flex d-md-block items-center gap-20">
-                                <div class="article-content flex-1">
-                                    <h3 class="article-text-1 fs-32 text-white fw-400 text-uppercase"><span>liên hoan phim</span></h3>
-                                    <h2 class="article-text-2 fs-40 text-yellow-e9 fw-600 text-uppercase mt-4"><span>Châu Á - Đà Nẵng</span></h2>
-                                    <h4 class="article-text-3 fs-32 text-white fw-500 font-manrope mt-10"><span>Lần thứ 3 | 2025</span></h4>
-                                    <h5 class="article-text-4 fs-24 text-white fw-bold font-manrope"><span>DANAFF - nhịp cầu Châu Á</span></h5>
-                                    <h6 class="article-text-5 fs-24 text-white fw-400 font-manrope"><span>29/06/2025 - 05/07/2025</span></h6>
-                                    <div class="article-text-6 fs-20 mt-10 text-yellow-e9">
-                                        <a href="#">www.danaff.vn</a>
-                                    </div>
-                                </div>
-                                <div class="article-btn flex-0">
-                                    <a href="#" class="btn text-uppercase fw-600">
-                                        <span>Register</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end right -->
-                    </div>
-                    <!-- end content -->
-                </div>
-            </section>
-            <!-- end tertiary -->
-
-            <!-- quaternary -->
-            <section class="section-quaternary relative z-10 over-hidden w-wrapper">
-                <!-- bg -->
-                <div class="section-quaternary__bg">
-                    <!-- pc -->
-                    <div class="d-3xl-block d-md-none absolute inset-0">
-                        <img src="./images/bg-1.png" alt="">
-                    </div>
-                    <!-- end pc -->
-                    <!-- mb -->
-                    <div class="d-3xl-none d-md-block absolute inset-0">
-                        <img src="./images/bg-1-mb.png" alt="">
-                    </div>
-                    <!-- end mb -->
-                </div>
-                <!-- end bg -->
-                 
-                <div class="section-quaternary__container w-1280 w-md-500 relative py-3xl-80 py-md-40">
-                    <!-- heading -->
-                    <div class="section-quaternary__heading text-center heading-primary">
-                        <h3 class="text-1 fs-32 text-gray-33 fw-400"><span>VFDA news</span></h3>
-                        <h2 class="text-2 fs-42 text-yellow-e9 fw-600 text-uppercase mt-8"><span>tin tức và sự kiện</span></h2>
-                    </div>
-                    <!-- end heading -->
-                    <!-- inner -->
-                    <div class="section-quaternary__inner">
-                        <!-- list cate -->
-                        <div class="cate-list d-3xl-flex items-center justify-center flex-wrap gap-20 mt-30">
-                            <!-- item -->
-                            <div class="cate-item flex-0 active">
-                                <div class="article-btn">
-                                    <a href="#" class="btn text-uppercase fw-600">
-                                        <span>tin tức VFDA</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end item -->
-                            <!-- item -->
-                            <div class="cate-item flex-0">
-                                <div class="article-btn">
-                                    <a href="#" class="btn text-uppercase fw-600">
-                                        <span>tin tức điện ảnh Việt Nam</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end item -->
-                            <!-- item -->
-                            <div class="cate-item flex-0">
-                                <div class="article-btn">
-                                    <a href="#" class="btn text-uppercase fw-600">
-                                        <span>tin tức điện ảnh quốc tế</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end item -->
-                        </div>
-                        <!-- end list cate -->
-
-                        <!-- content -->
-                        <div class="section-quaternary__content mt-40">
-                            <!-- article large -->
-                            <div class="article-large d-3xl-flex d-md-block">
-                                <!-- img -->
-                                <div class="article-img flex-0 w-50 w-md-full over-hidden">
-                                    <a href="#" class="ratio-4x3 scale-107">
-                                        <img src="./images/2.jpg" alt="" class="">
-                                    </a>
-                                </div>
-                                <!-- end img -->
-                                <!-- content -->
-                                <div class="article-content p-40 bg-white flex-1">
-                                    <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                        <span class="txt-1 fs-36 fw-bold">05</span>
-                                        <span class="txt-2 fs-16 fw-500">10/2025</span>
-                                    </div>
-                                    <h3 class="article-title fs-24 text-gray-33 fw-500 mt-20">
-                                        <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                    </h3>
-                                    <div class="article-des fix-text4 fs-16 font-manrope text-gray-33 mt-20">
-                                        <p>Đó cũng là chủ đề của Hội thảo Bàn tròn được tổ chức bởi Hiệp hội Xúc tiến Phát triển Điện ảnh Việt Nam (VFDA) phối hợp với Diễn đàn Toàn cầu Boston (BGF), Phái đoàn thường trực Việt Nam tại Liên Hiệp Quốc và Đại học Harvard; diễn ra tại Đại học Harvard vào ngày 11/3 vừa qua.</p>
-                                    </div>
-                                    <div class="article-btn mt-30">
-                                        <a href="#" class="btn text-uppercase fw-600">
-                                            <span>Xem chi tiết</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end content -->
-                            </div>
-                            <!-- end article large -->
-
-                            <!-- article smalls -->
-                            <div class="article-smalls d-3xl-grid d-md-block col-3 gap-24 mt-24">
-                                <!-- article -->
-                                <div class="article">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden">
-                                        <div class="d-3xl-block d-md-none">
-                                            <a href="#" class="ratio-4x3 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                        <div class="d-3xl-none d-md-block">
-                                            <a href="#" class="ratio-4x6 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white">
-                                        <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                            <span class="txt-1 fs-36 fw-bold">05</span>
-                                            <span class="txt-2 fs-16 fw-500">10/2025</span>
-                                        </div>
-                                        <h3 class="article-title fs-18 text-gray-33 fw-500 mt-20">
-                                            <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                        </h3>
-                                        
-                                        <div class="article-btn mt-12">
-                                            <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
-                                                <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
-                                                <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                                <!-- article -->
-                                <div class="article">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden">
-                                        <div class="d-3xl-block d-md-none">
-                                            <a href="#" class="ratio-4x3 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                        <div class="d-3xl-none d-md-block">
-                                            <a href="#" class="ratio-4x6 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white">
-                                        <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                            <span class="txt-1 fs-36 fw-bold">05</span>
-                                            <span class="txt-2 fs-16 fw-500">10/2025</span>
-                                        </div>
-                                        <h3 class="article-title fs-18 text-gray-33 fw-500 mt-20">
-                                            <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                        </h3>
-                                        
-                                        <div class="article-btn mt-12">
-                                            <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
-                                                <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
-                                                <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                                <!-- article -->
-                                <div class="article">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden">
-                                        <div class="d-3xl-block d-md-none">
-                                            <a href="#" class="ratio-4x3 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                        <div class="d-3xl-none d-md-block">
-                                            <a href="#" class="ratio-4x6 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white">
-                                        <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                            <span class="txt-1 fs-36 fw-bold">05</span>
-                                            <span class="txt-2 fs-16 fw-500">10/2025</span>
-                                        </div>
-                                        <h3 class="article-title fs-18 text-gray-33 fw-500 mt-20">
-                                            <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                        </h3>
-                                        
-                                        <div class="article-btn mt-12">
-                                            <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
-                                                <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
-                                                <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                                
-                            </div>
-                            <!-- end article smalls -->
-
-                            <!-- see more -->
-                            <div class="article-btn mt-40 d-3xl-flex d-md-none items-center justify-center">
-                                <a href="#" class="btn btn--brown btn--normal text-uppercase fw-600">
-                                    <span>Xem tất cả</span>
-                                </a>
-                            </div>
-                            <div class="article-btn mt-20 d-3xl-none d-md-block">
-                                <a href="#" class="btn text-uppercase fw-600">
-                                    <span>Xem tất cả</span>
-                                </a>
-                            </div>
-                            <!-- end see more -->
-                        </div>
-                        <!-- end content -->
-                    </div>
-                    <!-- end inner -->
-                </div>
-            </section>
-            <!-- end quaternary -->
-
-
-            <!-- quinary -->
-            <section class="section-quinary relative z-20 over-hidden bg-orange-f6">
-                <!-- bg -->
-                
-                <!-- end bg -->
-                <!-- top -->
-                <div class="section-quinary__top w-wrapper">
-                    <div class="section-quinary__top-container w-1280 w-md-500 relative pt-3xl-80 pb-40 py-md-40 z-10">
-                        <!-- heading -->
-                        <div class="section-quinary__top-heading d-3xl-flex items-center justify-between gap-20">
-                            <!-- left -->
-                            <div class="heading-left d-3xl-flex items-center">
-                                <div class="heading-left__img flex-0">
-                                    <a href="#">
-                                        <img src="./images/svg/fiml-1.svg" alt="">
-                                    </a>
-                                </div>
-                                <h2 class="heading-left__text text-white fs-42 fw-600 text-uppercase flex-1 pl-15">
-                                    <span class="d-3xl-block">danaff</span>  
-                                    <span class="d-3xl-block">Tin tức</span>  
-                                </h2>
-                            </div>
-                            <!-- end left -->
-
-                            <!-- right -->
-                            <div class="heaidng-right flex-0 d-md-none">
-                                <div class="article-btn">
-                                    <a href="#" class="btn btn--orange-f6 btn--border-w btn--normal text-uppercase fw-600">
-                                        <span>Xem tất cả</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end right -->
-                        </div>
-                        <!-- end heading -->
-                        <!-- content -->
-                        <div class="section-quinary__top-content mt-30 d-3xl-grid d-md-block col-2 gap-24">
-                            <!-- large -->
-                            <div class="article-large">
-                                <!-- img -->
-                                <div class="article-img over-hidden">
-                                    <div class="d-3xl-block d-md-none">
-                                        <a href="#" class="ratio-15x9 scale-107">
-                                            <img src="./images/2.jpg" alt="" class="">
-                                        </a>
-                                    </div>
-                                    <div class="d-3xl-none d-md-block">
-                                        <a href="#" class="ratio-4x3 scale-107">
-                                            <img src="./images/2.jpg" alt="" class="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end img -->
-                                <!-- content -->
-                                <div class="article-content p-30 bg-white">
-                                    <div class="article-time text-center text-white bg-orange-f5 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                        <span class="txt-1 fs-36 fw-bold">05</span>
-                                        <span class="txt-2 fs-16 fw-500">10/2025</span>
-                                    </div>
-                                    <h3 class="article-title fs-24 text-gray-33 fw-500 mt-15">
-                                        <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                    </h3>
-                                    
-                                    <div class="article-des fix-text4 fs-16 font-manrope text-gray-33 mt-20">
-                                        <p>Đó cũng là chủ đề của Hội thảo Bàn tròn được tổ chức bởi Hiệp hội Xúc tiến Phát triển Điện ảnh Việt Nam (VFDA) phối hợp với Diễn đàn Toàn cầu Boston (BGF), Phái đoàn thường trực Việt Nam tại Liên Hiệp Quốc và Đại học Harvard; diễn ra tại Đại học Harvard vào ngày 11/3 vừa qua.</p>
-                                    </div>
-                                </div>
-                                <!-- end content -->
-                            </div>
-                            <!-- end large -->
-
-                            <!-- smalls -->
-                            <div class="article-smalls d-3xl-grid d-md-block col-2 gap-24">
-                                <!-- article -->
-                                <div class="article">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden">
-                                        <a href="#" class="ratio-15x9 scale-107">
-                                            <img src="./images/2.jpg" alt="" class="">
-                                        </a>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white">
-                                        <div class="article-time text-center text-white bg-orange-f5 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                            <span class="txt-1 fs-24 fw-bold">05</span>
-                                            <span class="txt-2 fs-13 fw-500">10/2025</span>
-                                        </div>
-                                        <h3 class="article-title fs-16 text-gray-33 fw-500 mt-10">
-                                            <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                        </h3>
-                                        
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                                <!-- article -->
-                                <div class="article">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden">
-                                        <a href="#" class="ratio-15x9 scale-107">
-                                            <img src="./images/2.jpg" alt="" class="">
-                                        </a>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white">
-                                        <div class="article-time text-center text-white bg-orange-f5 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                            <span class="txt-1 fs-24 fw-bold">05</span>
-                                            <span class="txt-2 fs-13 fw-500">10/2025</span>
-                                        </div>
-                                        <h3 class="article-title fs-16 text-gray-33 fw-500 mt-10">
-                                            <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                        </h3>
-                                        
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                                <!-- article -->
-                                <div class="article">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden">
-                                        <a href="#" class="ratio-15x9 scale-107">
-                                            <img src="./images/2.jpg" alt="" class="">
-                                        </a>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white">
-                                        <div class="article-time text-center text-white bg-orange-f5 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                            <span class="txt-1 fs-24 fw-bold">05</span>
-                                            <span class="txt-2 fs-13 fw-500">10/2025</span>
-                                        </div>
-                                        <h3 class="article-title fs-16 text-gray-33 fw-500 mt-10">
-                                            <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                        </h3>
-                                        
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                                <!-- article -->
-                                <div class="article">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden">
-                                        <a href="#" class="ratio-15x9 scale-107">
-                                            <img src="./images/2.jpg" alt="" class="">
-                                        </a>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white">
-                                        <div class="article-time text-center text-white bg-orange-f5 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                            <span class="txt-1 fs-24 fw-bold">05</span>
-                                            <span class="txt-2 fs-13 fw-500">10/2025</span>
-                                        </div>
-                                        <h3 class="article-title fs-16 text-gray-33 fw-500 mt-10">
-                                            <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                        </h3>
-                                        
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                            </div>
-                            <!-- end smalls -->
-                        </div>
-                        <!-- end content -->
-
-                        <!-- see more mb -->
-                        <div class="d-3xl-none d-md-flex items-center justify-center">
-                            <div class="article-btn">
-                                <a href="#" class="btn btn--orange-f6 btn--border-w btn--normal text-uppercase fw-600">
-                                    <span>Xem tất cả</span>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end see more mb -->
-                    </div>
-                </div>
-                <!-- end top -->
-                <!-- bot -->
-                <div class="section-quinary__bot w-wrapper bg-gray-33">
-                    <!-- bg -->
-                    <div class="section-quinary__bot-bg">
-                        <img src="./images/svg/bg-film-2.svg" alt="" class="d-3xl-block d-md-none">
-                        <img src="./images/svg/bg-film-2.svg" alt="" class="d-3xl-none d-md-block">
-                    </div>
-                    <!-- end bg -->
-                    <div class="section-quinary__bot-container w-1280 w-md-500 relative z-10 py-3xl-80 py-md-40">
-                        <!-- heading -->
-                        <div class="section-quinary__bot-heading d-3xl-flex items-center justify-between gap-20">
-                            <!-- left -->
-                            <div class="heading-left d-3xl-flex items-center">
-                                <div class="heading-left__img flex-0">
-                                    <a href="#">
-                                        <img src="./images/svg/fiml-2-1.svg" alt="">
-                                    </a>
-                                </div>
-                                <h2 class="heading-left__text text-orange-d4 fs-42 fw-600 text-uppercase flex-1 pl-15">
-                                    <span class="d-3xl-block d-md-none">vietnamfilmproduction</span>  
-                                    <span class="d-3xl-none d-md-block">vietnamfilm <br> production</span>  
-                                </h2>
-                            </div>
-                            <!-- end left -->
-
-                            <!-- right -->
-                            <div class="heaidng-right flex-0 d-md-none">
-                                <div class="article-btn">
-                                    <a href="#" class="btn btn--orange btn--normal text-uppercase fw-600">
-                                        <span>Xem tất cả</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end right -->
-                        </div>
-                        <!-- end heading -->
-                        <!-- content -->
-                        <div class="section-quinary__bot-content mt-30">
-                            <!-- large -->
-                            <div class="article-large d-3xl-flex d-md-block">
-                                <!-- img -->
-                                <div class="article-img flex-0 w-50 w-md-full over-hidden">
-                                    <div class="d-3xl-block d-md-none">
-                                        <a href="#" class="ratio-4x6 scale-107">
-                                            <img src="./images/2.jpg" alt="" class="">
-                                        </a>
-                                    </div>
-                                    <div class="d-3xl-none d-md-block">
-                                        <a href="#" class="ratio-4x3 scale-107">
-                                            <img src="./images/2.jpg" alt="" class="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <!-- end img -->
-                                <!-- content -->
-                                <div class="article-content p-40 bg-white flex-1">
-                                    <h3 class="article-title fs-24 text-gray-33 fw-500">
-                                        <a href="#" class="fix-text3">L’amant (1992) - Người tình (1992)</a>
-                                    </h3>
-                                    <ul class="font-manrope mt-16 fs-16">
-                                        <li>Giải Oscar Cho Phim Nói Tiếng Nước Ngoài Hay Nhất.</li>
-                                        <li>Giải Quả Cầu Vàng Cho Phim Nói Tiếng Nước Ngoài Xuất Sắc</li>
-                                    </ul>
-                                    <div class="article-des fix-text5 fs-16 font-manrope text-gray-33 mt-20">
-                                        <p>Bộ phim lấy bối cảnh khi Việt Nam còn nằm dưới sự kiểm soát của Pháp. Nội dung xoay quanh chuyện tình tiến thoái lưỡng nan của một cô gái Pháp trẻ tuổi và một thiếu gia người Trung Quốc giàu có. Những cảnh quay miền sông nước và đồng lúa vùng tây nam bộ - Sa Đéc - Đồng Tháp lúc bấy giờ đã khắc họa hình ảnh một Việt Nam giản dị và bình yên.</p>
-                                    </div>
-                                    
-                                </div>
-                                <!-- end content -->
-                            </div>
-                            <!-- end large -->
-
-                            <!-- smalls -->
-                            <div class="article-smalls d-3xl-grid d-md-block col-3 gap-24 mt-24">
-                                <!-- article -->
-                                <div class="article d-3xl-flex flex-column">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden flex-0">
-                                        <div class="d-3xl-block d-md-none">
-                                            <a href="#" class="ratio-13x9 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                        <div class="d-3xl-none d-md-block">
-                                            <a href="#" class="ratio-15x9 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white flex-1">
-                                        <h3 class="article-title fs-16 text-gray-33 fw-500">
-                                            <a href="#" class="fix-text3">L’amant (1992) - Người tình (1992)</a>
-                                        </h3>
-                                        <ul class="font-manrope mt-10 fs-14">
-                                            <li>Giải Oscar Cho Phim Nói Tiếng Nước Ngoài Hay Nhất.</li>
-                                            <li>Giải Quả Cầu Vàng Cho Phim Nói Tiếng Nước Ngoài Xuất Sắc</li>
-                                        </ul>
-                                        <div class="article-des fix-text5 fs-14 font-manrope text-gray-33 mt-10">
-                                            <p>Bộ phim lấy bối cảnh khi Việt Nam còn nằm dưới sự kiểm soát của Pháp. Nội dung xoay quanh chuyện tình tiến thoái lưỡng nan của một cô gái Pháp trẻ tuổi và một thiếu gia người Trung Quốc giàu có. Những cảnh quay miền sông nước và đồng lúa vùng tây nam bộ - Sa Đéc - Đồng Tháp lúc bấy giờ đã khắc họa hình ảnh một Việt Nam giản dị và bình yên.</p>
-                                        </div>
-                                        
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                                <!-- article -->
-                                <div class="article d-3xl-flex flex-column">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden flex-0">
-                                        <div class="d-3xl-block d-md-none">
-                                            <a href="#" class="ratio-13x9 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                        <div class="d-3xl-none d-md-block">
-                                            <a href="#" class="ratio-15x9 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white flex-1">
-                                        <h3 class="article-title fs-16 text-gray-33 fw-500">
-                                            <a href="#" class="fix-text3">L’amant (1992) - Người tình (1992)</a>
-                                        </h3>
-                                        <ul class="font-manrope mt-10 fs-14">
-                                            <li>Giải Oscar Cho Phim Nói Tiếng Nước Ngoài Hay Nhất.</li>
-                                            <li>Giải Quả Cầu Vàng Cho Phim Nói Tiếng Nước Ngoài Xuất Sắc</li>
-                                        </ul>
-                                        <div class="article-des fix-text5 fs-14 font-manrope text-gray-33 mt-10">
-                                            <p>Bộ phim lấy bối cảnh khi Việt Nam còn nằm dưới sự kiểm soát của Pháp. Nội dung xoay quanh chuyện tình tiến thoái lưỡng nan của một cô gái Pháp trẻ tuổi và một thiếu gia người Trung Quốc giàu có. Những cảnh quay miền sông nước và đồng lúa vùng tây nam bộ - Sa Đéc - Đồng Tháp lúc bấy giờ đã khắc họa hình ảnh một Việt Nam giản dị và bình yên.</p>
-                                        </div>
-                                        
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                                <!-- article -->
-                                <div class="article d-3xl-flex flex-column">
-                                    <!-- img -->
-                                    <div class="article-img over-hidden flex-0">
-                                        <div class="d-3xl-block d-md-none">
-                                            <a href="#" class="ratio-13x9 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                        <div class="d-3xl-none d-md-block">
-                                            <a href="#" class="ratio-15x9 scale-107">
-                                                <img src="./images/2.jpg" alt="" class="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content p-20 bg-white flex-1">
-                                        <h3 class="article-title fs-16 text-gray-33 fw-500">
-                                            <a href="#" class="fix-text3">L’amant (1992) - Người tình (1992)</a>
-                                        </h3>
-                                        <ul class="font-manrope mt-10 fs-14">
-                                            <li>Giải Oscar Cho Phim Nói Tiếng Nước Ngoài Hay Nhất.</li>
-                                            <li>Giải Quả Cầu Vàng Cho Phim Nói Tiếng Nước Ngoài Xuất Sắc</li>
-                                        </ul>
-                                        <div class="article-des fix-text5 fs-14 font-manrope text-gray-33 mt-10">
-                                            <p>Bộ phim lấy bối cảnh khi Việt Nam còn nằm dưới sự kiểm soát của Pháp. Nội dung xoay quanh chuyện tình tiến thoái lưỡng nan của một cô gái Pháp trẻ tuổi và một thiếu gia người Trung Quốc giàu có. Những cảnh quay miền sông nước và đồng lúa vùng tây nam bộ - Sa Đéc - Đồng Tháp lúc bấy giờ đã khắc họa hình ảnh một Việt Nam giản dị và bình yên.</p>
-                                        </div>
-                                        
-                                    </div>
-                                    <!-- end content -->
-                                </div>
-                                <!-- end article -->
-                                
-                               
-                                
-                            </div>
-                            <!-- end smalls -->
-                        </div>
-                        <!-- end content -->
-
-                        <!-- see more mb -->
-                        <div class="d-3xl-none d-md-flex items-center justify-center mt-30">
-                            <div class="article-btn">
-                                <a href="#" class="btn btn--orange btn--normal text-uppercase fw-600">
-                                    <span>Xem tất cả</span>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end see more mb -->
-                    </div>
-                </div>
-                <!-- end bot -->
-            </section>
-            <!-- end quinary -->
-
-            <!-- senary -->
-            <section class="section-senary relative z-20 over-hidden w-wrapper">
-                <!-- bg -->
-                <div class="section-senary__bg">
-                    <!-- pc -->
-                    <div class="d-3xl-block d-md-none absolute inset-0">
-                        <img src="./images/bg-3.png" alt="">
-                    </div>
-                    <!-- end pc -->
-                    <!-- mb -->
-                    <div class="d-3xl-none d-md-block absolute inset-0">
-                        <img src="./images/bg-3-mb.png" alt="">
-                    </div>
-                    <!-- end mb -->
-                </div>
-                <!-- end bg -->
-                <div class="section-senary__container w-1280 w-md-500 relative d-3xl-flex py-3xl-120 py-md-40">
-                    <!-- content -->
-                    <div class="section-senary__content d-3xl-flex d-md-block w-full items-center">
-                        <!-- left -->
-                        <div class="section-senary__left flex-1">
-                            <div class="section-quaternary__heading heading-primary">
-                                <h3 class="text-1 fs-32 text-white fw-400"><span>HỘI VIÊN</span></h3>
-                                <h2 class="text-2 fs-42 text-white fw-600 text-uppercase mt-8"><span>ĐIỀU KIỆN THAM GIA</span></h2>
-                                <div class="text-3 fs-16 fw-400 text-white mt-30 font-manrope">
-                                    <p>Trở thành Hội viên của VFDA, các tổ chức và cá nhân cần hội đủ một số yếu tố. Để biết thêm chi tiết, mời click vào xem ngay [...]</p>
-                                </div>
-                            </div>
-                            <div class="article-btn mt-40">
-                                <a href="#" class="btn text-uppercase fw-600">
-                                    <span>Xem thêm</span>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end left -->
-                        <!-- right -->
-                        <div class="section-senary__right flex-0 w-53 w-md-full js__video169">
-                            <iframe width="1250" height="703" src="https://www.youtube.com/embed/nb_fFj_0rq8" title="Avatar: Fire and Ash | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                        <!-- end right -->
-                    </div>
-                    <!-- end content -->
-                </div>
-            </section>
-            <!-- end senary -->
-
-            <!-- septenary -->
-            <section class="section-septenary relative z-20 over-hidden w-wrapper">
-                <div class="section-septenary__container w-1280 w-md-500 relative py-3xl-80 py-md-40">
-                    <!-- heading -->
-                    <div class="section-septenary__heading heading-primary text-center">
-                        <h3 class="text-1 fs-32 text-gray-33 fw-400"><span>FILM-PROMOTION</span></h3>
-                        <h2 class="text-2 fs-42 text-yellow-e9 fw-600 text-uppercase mt-8"><span>XÚC TIẾN QUẢNG BÁ</span></h2>
-                        <div class="text-3 fs-18 fw-400 text-gray-55 mt-24 font-manrope">
-                            <p>Xúc tiến quảng bá điện ảnh Việt Nam và Quốc tế</p>
-                        </div>
-                    </div>
-                    <!-- end heading -->
-
-                    <!-- content -->
-                    <div class="section-septenary__content">
-                        <!-- item -->
-                        <div class="section-septenary__item mt-50">
-                            <!-- heading -->
-                            <h2 class="section-septenary__item-heading heading-secondary fs-24 fw-500 text-brown-5f text-uppercase mb-24">
-                                <a href="#">QUẢNG BÁ PHIM TẠI VIỆT NAM</a>
-                            </h2>
-                            <!-- end heading -->
-
-                            <!-- content -->
-                            <div class="section-septenary__item-content d-3xl-grid d-md-block col-2 gap-24">
-                                <!-- article large -->
-                                <div class="article-large relative">
-                                    <!-- img  -->
-                                    <div class="article-img over-hidden">
-                                        <a href="#" class="ratio-4x6 scale-107">
-                                            <img loading="lazy" src="./images/3.jpg" width="" height="" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content absolute inset-0 p-30 d-3xl-flex items-center gap-20">
-                                        <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                            <span class="txt-1 fs-36 fw-bold">05</span>
-                                            <span class="txt-2 fs-16 fw-500">10/2025</span>
-                                        </div> 
-                                        <h3 class="article-title fs-20 text-white fw-500 flex-1 w-full">
-                                            <a href="#" class="fix-text3">VFDA đẩy mạnh hợp tác quốc tế tại Liên hoan phim quốc tế Busan lần thứ 30</a>
-                                        </h3>                  
-                                    </div>
-                                    <!-- end content -->
-                                    
-                                </div>
-                                <!-- end article large -->
-
-                                <!-- smalls -->
-                                <div class="article-smalls d-3xl-flex flex-column justify-between">
-                                    <!-- article -->
-                                    <div class="article d-3xl-flex shadow">
-                                        <!-- img -->
-                                        <div class="article-img over-hidden flex-0 w-48">
-                                            
-                                            <div class="d-3xl-block d-md-none">
-                                                <a href="#" class="ratio-4x6 scale-107">
-                                                    <img src="./images/2.jpg" alt="" class="">
-                                                </a>
-                                            </div>
-                                            <div class="d-3xl-none d-md-block">
-                                                <a href="#" class="ratio-4x3 scale-107">
-                                                    <img src="./images/2.jpg" alt="" class="">
-                                                </a>
-                                            </div>
-                                            <div class="article-time text-center text-white bg-yellow-e9 font-manrope py-4 px-10 d-3xl-none d-sm-inline-flex items-center justify-center gap-8">
-                                                <span class="txt-1 fs-26 fw-bold">05</span>
-                                                <span class="txt-2 fs-14 fw-500">10/2025</span>
-                                            </div>
-                                           
-                                        </div>
-                                        <!-- end img -->
-                                        <!-- content -->
-                                        <div class="article-content p-20 bg-white flex-1">
-                                            <div class="article-time text-center text-white bg-yellow-e9 font-manrope py-4 px-10 d-3xl-inline-flex d-sm-none items-center justify-center gap-8">
-                                                <span class="txt-1 fs-26 fw-bold">05</span>
-                                                <span class="txt-2 fs-14 fw-500">10/2025</span>
-                                            </div>
-                                            <h3 class="article-title fs-16 text-gray-33 fw-500 mt-20">
-                                                <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                            </h3>
-                                            
-                                            <div class="article-btn mt-12">
-                                                <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
-                                                    <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
-                                                    <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                    <!-- end article -->
-
-                                    <!-- article -->
-                                    <div class="article d-3xl-flex shadow">
-                                        <!-- img -->
-                                        <div class="article-img over-hidden flex-0 w-48">
-                                            
-                                            <div class="d-3xl-block d-md-none">
-                                                <a href="#" class="ratio-4x6 scale-107">
-                                                    <img src="./images/2.jpg" alt="" class="">
-                                                </a>
-                                            </div>
-                                            <div class="d-3xl-none d-md-block">
-                                                <a href="#" class="ratio-4x3 scale-107">
-                                                    <img src="./images/2.jpg" alt="" class="">
-                                                </a>
-                                            </div>
-                                            <div class="article-time text-center text-white bg-yellow-e9 font-manrope py-4 px-10 d-3xl-none d-sm-inline-flex items-center justify-center gap-8">
-                                                <span class="txt-1 fs-26 fw-bold">05</span>
-                                                <span class="txt-2 fs-14 fw-500">10/2025</span>
-                                            </div>
-                                           
-                                        </div>
-                                        <!-- end img -->
-                                        <!-- content -->
-                                        <div class="article-content p-20 bg-white flex-1">
-                                            <div class="article-time text-center text-white bg-yellow-e9 font-manrope py-4 px-10 d-3xl-inline-flex d-sm-none items-center justify-center gap-8">
-                                                <span class="txt-1 fs-26 fw-bold">05</span>
-                                                <span class="txt-2 fs-14 fw-500">10/2025</span>
-                                            </div>
-                                            <h3 class="article-title fs-16 text-gray-33 fw-500 mt-20">
-                                                <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                            </h3>
-                                            
-                                            <div class="article-btn mt-12">
-                                                <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
-                                                    <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
-                                                    <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                    <!-- end article -->
-                                    
-                                </div>
-                                <!-- end smalls -->
-                            </div>
-                            <!-- end content -->
-                        </div>
-                        <!-- end item -->
-
-                        <!-- item -->
-                        <div class="section-septenary__item mt-50">
-                            <!-- heading -->
-                            <h2 class="section-septenary__item-heading heading-secondary fs-24 fw-500 text-brown-5f text-uppercase mb-24">
-                                <a href="#">QUẢNG BÁ PHIM TẠI VIỆT NAM</a>
-                            </h2>
-                            <!-- end heading -->
-
-                            <!-- content -->
-                            <div class="section-septenary__item-content d-3xl-grid d-md-block col-2 gap-24">
-                                <!-- article large -->
-                                <div class="article-large relative">
-                                    <!-- img  -->
-                                    <div class="article-img over-hidden">
-                                        <a href="#" class="ratio-4x6 scale-107">
-                                            <img loading="lazy" src="./images/3.jpg" width="" height="" alt="">
-                                        </a>
-                                    </div>
-                                    <!-- end img -->
-                                    <!-- content -->
-                                    <div class="article-content absolute inset-0 p-30 d-3xl-flex items-center gap-20">
-                                        <div class="article-time text-center text-white bg-yellow-e9 font-manrope pt-4 pb-8 px-10 d-3xl-inline-flex flex-column items-center justify-center">
-                                            <span class="txt-1 fs-36 fw-bold">05</span>
-                                            <span class="txt-2 fs-16 fw-500">10/2025</span>
-                                        </div> 
-                                        <h3 class="article-title fs-20 text-white fw-500 flex-1 w-full">
-                                            <a href="#" class="fix-text3">VFDA đẩy mạnh hợp tác quốc tế tại Liên hoan phim quốc tế Busan lần thứ 30</a>
-                                        </h3>                  
-                                    </div>
-                                    <!-- end content -->
-                                    
-                                </div>
-                                <!-- end article large -->
-
-                                <!-- smalls -->
-                                <div class="article-smalls d-3xl-flex flex-column justify-between">
-                                    <!-- article -->
-                                    <div class="article d-3xl-flex shadow">
-                                        <!-- img -->
-                                        <div class="article-img over-hidden flex-0 w-48">
-                                            
-                                            <div class="d-3xl-block d-md-none">
-                                                <a href="#" class="ratio-4x6 scale-107">
-                                                    <img src="./images/2.jpg" alt="" class="">
-                                                </a>
-                                            </div>
-                                            <div class="d-3xl-none d-md-block">
-                                                <a href="#" class="ratio-4x3 scale-107">
-                                                    <img src="./images/2.jpg" alt="" class="">
-                                                </a>
-                                            </div>
-                                            <div class="article-time text-center text-white bg-yellow-e9 font-manrope py-4 px-10 d-3xl-none d-sm-inline-flex items-center justify-center gap-8">
-                                                <span class="txt-1 fs-26 fw-bold">05</span>
-                                                <span class="txt-2 fs-14 fw-500">10/2025</span>
-                                            </div>
-                                           
-                                        </div>
-                                        <!-- end img -->
-                                        <!-- content -->
-                                        <div class="article-content p-20 bg-white flex-1">
-                                            <div class="article-time text-center text-white bg-yellow-e9 font-manrope py-4 px-10 d-3xl-inline-flex d-sm-none items-center justify-center gap-8">
-                                                <span class="txt-1 fs-26 fw-bold">05</span>
-                                                <span class="txt-2 fs-14 fw-500">10/2025</span>
-                                            </div>
-                                            <h3 class="article-title fs-16 text-gray-33 fw-500 mt-20">
-                                                <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                            </h3>
-                                            
-                                            <div class="article-btn mt-12">
-                                                <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
-                                                    <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
-                                                    <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                    <!-- end article -->
-
-                                    <!-- article -->
-                                    <div class="article d-3xl-flex shadow">
-                                        <!-- img -->
-                                        <div class="article-img over-hidden flex-0 w-48">
-                                            
-                                            <div class="d-3xl-block d-md-none">
-                                                <a href="#" class="ratio-4x6 scale-107">
-                                                    <img src="./images/2.jpg" alt="" class="">
-                                                </a>
-                                            </div>
-                                            <div class="d-3xl-none d-md-block">
-                                                <a href="#" class="ratio-4x3 scale-107">
-                                                    <img src="./images/2.jpg" alt="" class="">
-                                                </a>
-                                            </div>
-                                            <div class="article-time text-center text-white bg-yellow-e9 font-manrope py-4 px-10 d-3xl-none d-sm-inline-flex items-center justify-center gap-8">
-                                                <span class="txt-1 fs-26 fw-bold">05</span>
-                                                <span class="txt-2 fs-14 fw-500">10/2025</span>
-                                            </div>
-                                           
-                                        </div>
-                                        <!-- end img -->
-                                        <!-- content -->
-                                        <div class="article-content p-20 bg-white flex-1">
-                                            <div class="article-time text-center text-white bg-yellow-e9 font-manrope py-4 px-10 d-3xl-inline-flex d-sm-none items-center justify-center gap-8">
-                                                <span class="txt-1 fs-26 fw-bold">05</span>
-                                                <span class="txt-2 fs-14 fw-500">10/2025</span>
-                                            </div>
-                                            <h3 class="article-title fs-16 text-gray-33 fw-500 mt-20">
-                                                <a href="#" class="fix-text3">Hợp tác phát triển điện ảnh Việt Nam – Hoa Kỳ trong bối cảnh trí tuệ nhân tạo và Cách mạng công nghiệp 4.0</a>
-                                            </h3>
-                                            
-                                            <div class="article-btn mt-12">
-                                                <a href="#" class="btn-secondary d-3xl-inline-flex items-center justify-between">
-                                                    <span class="txt text-gray-5f fs-16 font-manrope fw-400">Xem chi tiết</span>
-                                                    <img src="./images/svg/arrow-next-orange.svg" alt="" class="icon ml-10">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- end content -->
-                                    </div>
-                                    <!-- end article -->
-                                    
-                                </div>
-                                <!-- end smalls -->
-                            </div>
-                            <!-- end content -->
-                        </div>
-                        <!-- end item -->
-
-                    </div>
-                    <!-- end content -->
-                </div>
-            </section>
-            <!-- end septenary -->
-
-            <!-- octonary -->
-            <section class="section-octonary relative z-10 over-hidden">
-                <!-- bg -->
-                <div class="section-octonary__bg">
-                    <img src="./images/bg-4-2.png" alt="" class="d-3xl-block d-sm-none w-full">
-                    <img src="./images/bg-4-2-mb.png" alt="" class="d-3xl-none d-sm-block w-full">
                     
                 </div>
-                <!-- end bg -->
-                <div class="section-octonary__field w-wrapper bg-brown-5f">
-                    <div class="section-octonary__container w-1280 w-md-500 relative pb-3xl-80 py-md-40">
-                        <!-- heading -->
-                        <div class="section-septenary__heading heading-primary text-center">
-                            <h2 class="text-2 fs-42 text-yellow-e9 fw-600 text-uppercase mt-8"><span>Đối tác</span></h2>
-                        </div>
-                        <!-- end heading -->
-    
-                        <!-- content -->
-                        <div class="section-octonary__slide mt-40 js__fourRowSlidesContainer">
-                            <div class="swiper js__fourRowSlide">
-                                <div class="swiper-wrapper">
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-1.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-2.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-3.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-4.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-5.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-6.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-7.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-8.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-9.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-10.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-11.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-1.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-2.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-3.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-4.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-5.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-6.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-7.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-8.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-9.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-10.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-11.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-1.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-2.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-3.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-4.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-5.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-6.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-7.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-8.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-9.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-10.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    <!-- slide -->
-                                    <div class="swiper-slide">
-                                        <div class="article bg-white">
-                                            <div class="article-img">
-                                                <a href="#">
-                                                    <img src="./images/partner-11.png" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- end slide -->
-                                    
-                                    
-                                </div>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                        <!-- end content -->
-                    </div>
-                </div>
+                <!-- end container -->
             </section>
-            <!-- end octonary -->
+            <!-- end detail secondary -->
 
         </main>
         <!-- end main -->
