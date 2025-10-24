@@ -155,6 +155,16 @@
         }
     }
 
+    .about-us-primary {
+        &__top-content {
+            .article-tertiary {
+                &::before {
+                    top: -442px;
+                }
+            }
+        }
+    }
+
     // --------------------------------------------------------------------detail
     
 
@@ -311,6 +321,16 @@
                 }
             
 
+            }
+        }
+    }
+
+    .about-us-primary {
+        &__top-content {
+            .article-tertiary {
+                &::before {
+                    top: -410px;
+                }
             }
         }
     }
@@ -587,6 +607,30 @@
                 grid-template-columns: repeat(2,1fr);
                 grid-gap: 12px;
                 gap: 12px;
+            }
+        }
+    }
+
+    .about-us-primary {
+        &__top-content {
+            .article-smalls {
+                &::before {
+                    content: none;
+                }
+
+                .article {
+                    &::before,
+                    &::after {
+                        content: none;
+                    }
+                }
+            }
+            .article-tertiary,
+            .article-quaternary {
+                &::before,
+                &::after {
+                    content: none;
+                }
             }
         }
     }
