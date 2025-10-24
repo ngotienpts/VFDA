@@ -196,6 +196,11 @@
                     }
                 }
             }
+            .article-smalls-2 {
+                &::before {
+                    width: 52%;
+                }
+            }
 
             .article-tertiary {
                 max-width: 850px;
@@ -228,6 +233,13 @@
                     width: 22px;
                     height: 16px;
                     background-repeat: no-repeat;
+                }
+                
+            }
+            .article-tertiary-2 {
+                &::before {
+                    top: -882px;
+                    height: 1000px;
                 }
             }
             .article-quaternary {

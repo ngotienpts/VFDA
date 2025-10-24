@@ -159,7 +159,7 @@
         &__top-content {
             .article-tertiary {
                 &::before {
-                    top: -442px;
+                    top: -828px;
                 }
             }
         }
@@ -330,6 +330,11 @@
             .article-tertiary {
                 &::before {
                     top: -410px;
+                }
+            }
+            .article-tertiary-2 {
+                &::before {
+                    top: -767px;
                 }
             }
         }
@@ -607,6 +612,9 @@
                 grid-template-columns: repeat(2,1fr);
                 grid-gap: 12px;
                 gap: 12px;
+            }
+            .article-smalls-2 {
+                margin-top: 12px;
             }
         }
     }
